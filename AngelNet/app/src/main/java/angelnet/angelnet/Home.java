@@ -129,7 +129,7 @@ public class Home extends ActionBarActivity implements GoogleApiClient.Connectio
     public void onConnected(Bundle bundle) {
         if(started!=1) {
             mSignInClicked = false;
-            Toast toast = Toast.makeText(this, "           User is connected!\nWelcome to the requests page!", Toast.LENGTH_LONG);
+            Toast toast = Toast.makeText(this, "           User is connected!\nWelcome to the requests pageklklkl!", Toast.LENGTH_LONG);
             toast.show();
             updateUI(true);
             // Get user's information
