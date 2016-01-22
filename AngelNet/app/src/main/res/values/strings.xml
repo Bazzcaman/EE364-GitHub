@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">AngelNet</string>
+    <string name="API_key">AIzaSyBTqRryhNVNjE56mW65dnVz_8yMBuAkQeU</string>
+    <string name="action_settings">Settings</string>
+    <string name="angel">Angel</string>
+    <string name="about">About</string>
+    <string name="user_guide">User Guide</string>
+    <string name="terms_and_conditions">Terms \u0026 Conditions</string>
+    <string name="acknowledgements">Acknowledgements</string>
+    <string name="back_button">Back Button</string>
+    <string name="profile">Profile</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="history">History</string>
+    <string name="messages">Messages</string>
+    <string name="logout">Logout</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="requests">Requests</string>
+    <string name="create">Create</string>
+    <string name="manage">Manage</string>
+    <string name="dr_lizy_kurian_john">Dr. Lizy Kurian John - Faculty Mentor</string>
+    <string name="members_of_team_potato"><u>Members of Team Potato</u></string>
+    <string name="safeen_ali">Safeen Ali - Administrator</string>
+    <string name="anthony_elhabr">Anthony Elhabr - Administrator</string>
+    <string name="allison_grabowski">Allison Grabowski - Administrator</string>
+    <string name="ari_levy">Ari Levy - Administrator</string>
+    <string name="john_wallace">John Wallace - Administrator</string>
+    <string name="james_yao">James Yao - Administrator</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Home">
+    <item android:id="@+id/action_profile" android:title="@string/profile"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_messages" android:title="@string/messages"
+        android:orderInCategory="200" app:showAsAction="never" />
+    <item android:id="@+id/action_create" android:title="@string/create"
+        android:orderInCategory="300" app:showAsAction="never" />
+    <item android:id="@+id/action_manage" android:title="@string/manage"
+        android:orderInCategory="400" app:showAsAction="never" />
+    <item android:id="@+id/action_about" android:title="@string/about"
+        android:orderInCategory="500" app:showAsAction="never" />
+    <item android:id="@+id/action_logout" android:title="@string/logout"
+        android:orderInCategory="600" app:showAsAction="never" />
+</menu>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:fitsSystemWindows="true"
+    android:background="@drawable/sky">
+
+    <TextView android:text="@string/about" android:layout_width="88dp"
+        android:layout_height="45dp"
+        android:id="@+id/About"
+        android:textSize="32sp"
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_guide"
+        android:id="@+id/user_guide_btn"
+        android:layout_marginBottom="42dp"
+        android:layout_above="@+id/terms_and_conditions_btn"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/user_guide"
+        android:textSize="12sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_and_conditions"
+        android:id="@+id/terms_and_conditions_btn"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/terms_and_conditions"
+        android:textSize="12sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/acknowledgements"
+        android:id="@+id/acknowledgements_btn"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/terms_and_conditions_btn"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/acknowledgements"
+        android:textSize="12sp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back_about"
+        android:src="@drawable/back"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="15dp"
+        android:contentDescription="@string/back_button" />
+
+</RelativeLayout>
